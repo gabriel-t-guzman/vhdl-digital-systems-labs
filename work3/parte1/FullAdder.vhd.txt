@@ -1,0 +1,20 @@
+RIPPLE CARRY 4 bits
+
+- 1000 -> 8
+  0010 -> 2
+  _____
+  0110 -> 6
+
+
+1000
+1110
+_____
+
+*HUMANOS*
+para tocrar um numero para negativo fazemos
+0010 -> "INVERSO" -> 1101 -> "mais 0001" -> 1110 
+ 2                                           -2
+
+*COMPUTADOR* LEE AL CONTRARIO <----
+recibe "0010" ->  "le "0" luego "1" y asi -> "FSM de 3 estados" copia ceros y un uno, despues del primer uno los cambia -> "1110" 
+         2                                                                                                                   -2

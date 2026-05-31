@@ -1,0 +1,26 @@
+A  B  CIN  |   S  COUT
+0  0   0   |   0   0             
+0  0   1   |   1   0       
+0  1   0   |   1   0       
+0  1   1   |   0   1          
+                         
+1  0   0   |   1   0           
+1  0   1   |   0   1          
+1  1   0   |   0   1           
+1  1   1   |   1   1
+
+
+LOGIC EQUATIONS (S) and (COUT) :
+
+' -> "negation"
+
+how s is '1' with the presence of a impar amount of '1' is a XOR GATE
+ 
+s = CIN*A'*B' + CIN'*B*A' + CIN'*A*B' + A*B*CIN (TOO LONG) 
+-> KARNAUGH MAP -> XOR GATE -> 
+s = A (x) B (X) CIN
+
+COUT = (A+B)*CIN + A*B
+
+                  
+                              

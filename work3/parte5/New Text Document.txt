@@ -1,0 +1,9 @@
+000 | adição
+001 | subtração
+010 | multiplicação sem sinal
+011 | quociente de divisão sem sinal
+100 | resto de divisão sem sinal
+101 | AND (bit-a-bit)
+110 | OR (bit-a-bit)
+111 | XOR (bit-a-bit)
+
