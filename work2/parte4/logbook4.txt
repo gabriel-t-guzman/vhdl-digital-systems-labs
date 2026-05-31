@@ -1,0 +1,37 @@
+ENCODER 4:2 table
+
+I3  I2  I1  I0 | O1   O0  Valid
+ 0   0   0   1 |  0    0      1
+ 0   0   1   0 |  0    1      1
+ 0   1   0   0 |  1    0      1
+ 1   0   0   0 |  1    1      1
+ 0   0   0   0 |  X    X      0
+
+
+
+VHDL CODE: HARDWARE
+
+architecture BehavEqua of Penc4_2 is
+begin 
+    process(inputs)
+    begin
+        if (inputs = "0000") then
+	      validout <= '0';
+		  else 
+	      validout <= '1';
+            if (inputs(3) = '1') then
+                outputs <= "11";
+                
+            elsif (inputs(2) = '1') then 
+                outputs <= "10";
+               
+  	    elsif (inputs(1) = '1') then
+                 outputs <= "01";
+			
+            else
+                 outputs <= "00";
+             end if;
+        end if;
+    end process;
+end BehavEqua;
+
