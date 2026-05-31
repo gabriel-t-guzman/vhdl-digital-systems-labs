@@ -1,0 +1,23 @@
+
+# VER O CODIGO NA NOITE
+Debouncer -> para o Key e entradas
+TimerN_multiple -> Para retrasar
+
+CounterN 
+Gerador_de_pulsos (woerk8 tpc1)
+CLock_Divider_N
+BinToBCD (Fazer saida de 4, work3 part4)
+AdderN (wrok5 part2)
+7SegDisplayer
+
+Multiplexer
+
+
+#FAZER NA AULA
+FSM
+TOP-LEVEL
+
+
+
+
+
