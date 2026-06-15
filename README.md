@@ -13,7 +13,7 @@ To maintain a professional layout, all synthesis tool-generated binaries and tem
 * **`/Projeto1`**: Mid-term practical exam script developed to validate structural design skills.
 * **`/Projeto2`**: Final practical exam featuring a fully functional Finite State Machine (FSM) designed, synthesized.
 
-## 🛠️ Concepts & Digital Structures Implemented
+##  Concepts & Digital Structures Implemented
 * **Combinational Logic:** Parametric Arithmetic Units (generic $n$-bit adders), encoders, decoders, and data selectors.
 * **Sequential Logic:** Registers, synchronous counters, and advanced **Finite State Machines (FSMs)** for control paths.
 * **Structural VHDL:** Hierarchical modular design, component instantiation, and structural port mapping.
